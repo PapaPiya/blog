@@ -1,0 +1,64 @@
+# 分类配置文件
+# 这个配置文件的名称是为了配置头部的链接
+# 本地路径就以 markdown 文档根目录下的目录名，
+# 如 $path/blog-docs/linux ， 此时 path 就应该是 linux （注意区分大小写）
+
+[[category]]
+    name = "首页"
+    path = "/"
+    route= "/"
+    description = "博客列表"
+
+[[category]]
+    name = "Linux"
+    path = "linux"
+    route= "linux"
+    description = "和 Linux 相关的文章"
+
+[[category]]
+    name = "Go"
+    path = "go"
+    route= "go"
+    description = "Go 相关"
+
+[[category]]
+    name = "网络"
+    path = "network"
+    route= "network"
+    description = "和 网络 相关的文章"
+
+[[category]]
+    name = "算法"
+    path = "algorithm"
+    route= "algrithom"
+    description = "和算法相关的文章"
+
+[[category]]
+    name = "常用工具"
+    path = "common tools"
+    route= "tools"
+    description = "常用工具"
+
+[[category]]
+    name = "分布式"
+    path = "ditribute"
+    route= "distribute"
+    description = "分布式相关笔记"
+
+[[category]]
+    name = "前端"
+    path = "fontend"
+    route= "fontend"
+    description = "前端相关笔记"
+
+[[category]]
+    name = "数据库"
+    path = "database"
+    route= "db"
+    description = "数据库相关笔记"
+
+[[category]]
+    name = "About"
+    path = "/about"
+    route= "about"
+    description = "关于本博客"
